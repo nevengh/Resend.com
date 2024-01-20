@@ -1,0 +1,10 @@
+.Text p{
+    color: rgba(239, 245, 255, 0.69);
+    text-align: center;
+    margin: auto;
+    font-family: var(--font-family-primary);
+    font-size: 1.125rem;
+    font-weight: 400;
+    width: 42.30438rem;
+    line-height: 1.6875rem; /* 150% */
+}
