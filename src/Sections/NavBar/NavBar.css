@@ -1,5 +1,6 @@
 .navbar{
     width: 100%;
+    backdrop-filter: blur(2px);
 }
 
 .nav-btn{

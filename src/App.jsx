@@ -4,11 +4,14 @@ import Companies from './Sections/Companies/Companies'
 import DevelopEmail from './Sections/DevelopEmail/DevelopEmail'
 import EmailReimagened from './Sections/EmailReimagened/EmailReimagened'
 import EverythingInControl from './Sections/EverythingInControl/EverythingInControl'
+import FirstClass from './Sections/FirstClass/FirstClass'
+
 import Footer from './Sections/Footer/Footer'
 
-// import Header from './Sections/Header/Header'
+
 import Hero from './Sections/Hero/Hero'
-// import Integrate from './Sections/Integrate/Integrate'
+import Integrate from './Sections/Integrate/Integrate'
+
 import NavBar from './Sections/NavBar/NavBar'
 
 import ReachHuman from './Sections/ReachHuman/ReachHuman'
@@ -29,16 +32,21 @@ const App = () => {
         
       <Hero/>
       <Companies/>
-      <ReachHuman/>
-      {/* <SubSectionOne/> */}
-      <EverythingInControl/>
-      {/* <SubSectionTwo/> */}
-      <EmailReimagened/>
+      <Integrate/>
+      <FirstClass/>
+      {/* <FirstClassDeveloper/> */}
       <DevelopEmail/>
+      <ReachHuman/>
+      <SubSectionOne/>
+      <EverythingInControl/>
       
+      
+      
+      <SubSectionTwo/>
+      <EmailReimagened/>
       {/* <Companies/> */}
       </Container>
-      {/* <Footer/> */}
+      <Footer/>
     </>
     
   )

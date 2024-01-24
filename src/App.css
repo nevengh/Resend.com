@@ -30,3 +30,89 @@ a{
 ul{
     list-style: none;
 }
+
+
+/* Media */
+
+@media (max-width:540px){
+    .ne-hero-image img{
+        width: 20rem;
+    }
+    .ne-hero-title{
+        font-size: 2rem !important;
+    }
+    .ne-hero-image{
+        height: 20.5rem;
+    }
+    .light{
+        display: none;
+    }
+    .ne-hero-text{
+    font-size: .955rem;
+    width: fit-content !important;
+    }
+
+    .nav-bttn-started{
+        display: none;
+    }
+
+    .spotLight{
+        display: none;
+    }
+    .developemail-text{
+        width: 18rem !important;
+        font-size: 1.3rem !important;
+    }
+    .container-img{
+        gap: 2rem;
+        display: flex;
+        flex-direction: column;
+        width: 20.375rem !important;
+    
+        background: linear-gradient(0deg, #000 0%, rgba(0, 0, 0, 0.00) 20%, rgba(0, 0, 0, 0.00) 90%, rgba(0, 0, 0, 0.00) 100%);
+    }
+    .firstclass-one .row01 {
+        width: 15rem !important;
+    }
+    
+    
+    .container-img svg{
+        width: fit-content !important;
+    }
+    .firstclass-card p{
+        width: fit-content !important;
+    }
+    .control-content h6{
+        width: fit-content !important;
+    }
+    .sub-two-title{
+       
+        font-size: 2.5rem !important;  
+        
+    }
+    .SubSectionTwo p{
+        width: fit-content !important;
+        
+    }
+    .Resend-img img{
+        width: 12rem;
+        
+    }
+    .FirstClass-title{
+        width: 20rem !important;
+    }
+    .ne-reachhuman-title{
+        padding: 0 !important;
+    }
+    .sub-content p{
+        width: fit-content !important;
+    }
+    .line{
+        display: none;
+    }
+    .integrate-head h1,.integrate-head p,.FirstClass-text{
+        width: fit-content !important;
+    }
+    
+}
+

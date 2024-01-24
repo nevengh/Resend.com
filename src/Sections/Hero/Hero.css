@@ -114,31 +114,4 @@ margin-top: 2rem;
     color: white;
 }
 
-@media (max-width:540px){
-    .ne-hero-image img{
-        width: 20rem;
-    }
-    .ne-hero-title{
-        font-size: 2.5rem;
-    }
-    .ne-hero-image{
-        height: 20.5rem;
-    }
-    .light{
-        display: none;
-    }
-    .ne-hero-text{
-    font-size: .955rem;
-    width: 20.11438rem;
-    }
 
-    .nav-btn{
-        display: none;
-    }
-
-    .spotLight{
-        display: none;
-    }
-
-    
-}

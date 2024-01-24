@@ -3,6 +3,7 @@ import './NavBar.css'
 import logo from '../../assets/images/logo.svg'
 import arrow from '../../assets/images/arrow_btn.svg'
 const NavBar = () => {
+    
     return (
         <Navbar fixed="top"    expand="lg" className='navbar'>
             <Container>
@@ -23,7 +24,7 @@ const NavBar = () => {
                         <Nav.Link href="#home" className='nav_Link'>Sign in</Nav.Link>
                         
                     </Navbar.Collapse>
-                    <div className="nav-btn">
+                    <div className="nav-btn nav-bttn-started">
                             <a href="#">
                                 Get Started
                                 <span className='arrow'>
